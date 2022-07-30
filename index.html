@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="details">
+            <div class="name-tag">Name<span style="color: red;">*</span></div>
+            <div class="name-inputs">
+                <input type="text" class="first">
+                <input type="text" class="last">
+            </div>
+            <div class="first-last">
+                <span class="one">First</span>
+                <span class="two">Last</span>
+            </div>
+            <div class="mail-tag">
+                <label for="mail-id">Email<span style="color: red;">*</span></label>
+            </div>
+            <div class="mail">
+                <input type="email" class="mail-input">
+            </div>
+            <div class="experience">
+                <p><b> Your Experience</b><span style="color: red;">*</span></p>
+            </div>
+            <span class="star-cb-group">
+                <input type="radio" id="rating-5" name="rating" value="5" />
+                <label for="rating-5">5</label>
+                <input type="radio" id="rating-4" name="rating" value="4" checked="checked" />
+                <label for="rating-4">4</label>
+                <input type="radio" id="rating-3" name="rating" value="3" />
+                <label for="rating-3">3</label>
+                <input type="radio" id="rating-2" name="rating" value="2" />
+                <label for="rating-2">2</label>
+                <input type="radio" id="rating-1" name="rating" value="1" />
+                <label for="rating-1">1</label>
+                <input type="radio" id="rating-0" name="rating" value="0" class="star-cb-clear" />
+                <label for="rating-0">0</label>
+              </span>
+            </div>
+            <div class="rating-qes">
+                <p>Overall,how would you experience with us?</p>
+            </div>
+            <div class="satisfied-qes">
+                <p><b>How Satisified are you with us?<span style="color: red;">*</span></b></p>
+                <table class="feedback-table">
+                    <tr>
+                    <th></th>
+                    <th>veryUnsatisfied</th>
+                    <th>Unsatisfied</th>
+                    <th>Neutral</th>
+                    <th>Satisfied</th>
+                    <th>Verysatisfied</th>
+                    </tr>
+                    <tr>
+                        <td>Purchase</td>
+                        <td><input type="radio" id="radio-button"></td>
+                        <td><input type="radio" id="radio-button"></td>
+                        <td><input type="radio" id="radio-button"></td>
+                        <td><input type="radio" id="radio-button"></td>
+                        <td><input type="radio" id="radio-button"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Service</td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Company Overall</td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                       
+                    </tr>
+                </table>
+                <div class="satisfied-qes">
+                    <p><b>How likely are you to<span style="color: red;">*</span></b></p>
+                </div>
+                <table class="feedback-table">
+                    <tr>
+                    <th></th>
+                    <th>VeryUnsatisfied</th>
+                    <th>Unsatisfied</th>
+                    <th>Neutral</th>
+                    <th>Satisfied</th>
+                    <th>Verysatisfied</th>
+                    </tr>
+                    <tr>
+                        <td>By from us again</td>
+                        <td><input type="radio" id="radio-button"></td>
+                        <td><input type="radio" id="radio-button"></td>
+                        <td><input type="radio" id="radio-button"></td>
+                        <td><input type="radio" id="radio-button"></td>
+                        <td><input type="radio" id="radio-button"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Recommend our product to others</td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Recommend our product to others</td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="comments">
+                <p><b> Additional Comments or Suggestions</b></p>
+            </div>
+            <div>
+                <textarea name="comments" id="comment-box" cols="100" rows="8"></textarea>
+            </div>
+            <div class="submit-button">
+                <input type="submit">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
